@@ -6,7 +6,6 @@ stripe.Charge.create(
   amount=2000,
   currency="usd",
   source="tok_visa", # obtained with Stripe.js
-  description="Charge for Khushal"
+  description=" Test Charges"
 )
 
-print("Hello, World!")
